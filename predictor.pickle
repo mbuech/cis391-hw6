@@ -1,0 +1,20 @@
+(iPredictor
+Predictor
+p0
+(dp1
+S'_Predictor__spamFolder'
+p2
+S'../spamham/spam'
+p3
+sS'_Predictor__spamFrequency'
+p4
+F0.5
+sS'_Predictor__hamFolder'
+p5
+S'../spamham/ham'
+p6
+sS'_Predictor__createdAt'
+p7
+S'05 Dec 01:18:32'
+p8
+sb.

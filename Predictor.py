@@ -121,7 +121,7 @@ class Predictor:
             unique_labels = float(len(countdict['all_words'].keys()))
             m = 1000
             for key, value in countdict['all_words'].iteritems():
-            #word count
+                #word count
                 countdict['all_words'][key] = (float(value['count']) + (1.0/m)) / \
                     (num_words + (unique_labels/m))
             countdict['number_uppercase'] = (float(num_uppercase) + (1.0/m)) /\
@@ -144,7 +144,15 @@ class Predictor:
         for c in self.__classes:
             score = 0.0
             training_dic = self.__classes[c]
-            #look at each word in the input (test) file
+            test_vocab = defaultdict(int)
+            test_vocab.update(files2countdict([filename]))
+            for word in test_vocab['all_words']:
+                score += math.log(training_dic['all_words'][word])
+            for header_word in test_vocab['headers']:
+                score += math.log(training_dic['headers'][header_word])
+            #how do we incorporate number_uppercase and number_links???
+            score += math.log(test_vocab['number_uppercase'] / training_dic['number'])
+            score += math.log(test_vocab['number_links'] / training_dic['number_links'])
             answer.append((score, c))
         answers.sort()
         if answers[1][1] == self.__spamFolder:
@@ -170,26 +178,6 @@ class Predictor:
         directory['number_links'] = len(links)
         directory['headers'] = header
         directory['all_words'] = all_words
-        #todo: tokenize using clara's method
-        #((\d*[\,.]\d*)+)
-        # for word in nltk.word_tokenize(file_string):
-        #     #urls
-        #     if 'www' in word.lower() or 'http' in word.lower():
-        #         if d['(www)'] != None:
-        #             d['(www)']['count'] += 1
-        #         else:
-        #             d['(www)']['count'] = 1
-        #     #capitalization
-        #     if word = word.upper():
-        #         if d[word.lower()]['upper'] != None:
-        #             d[word.lower()]['upper'] += 1
-        #         else:
-        #             d[word.lower()]['upper'] = 1
-        #     #word count
-        #     if d[word.lower()] != None:
-        #         d[word.lower()]['count'] += 1
-        #     else:
-        #         d[word.lower()]['count'] = 1
     return directory
 
 if __name__ == '__main__':

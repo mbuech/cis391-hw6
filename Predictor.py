@@ -64,9 +64,6 @@ class TreebankWordTokenizer():
             else:
                 d[key] = 1
         s = body
-        s = re.sub('\d[.,]\d', ' ', s)
-        s = re.sub('([.,;!?()])', r' \1 ', s)
-        s = re.sub('\s{2,}', ' ', s)
         return d, s
 
     def tokenize_links(self, text):
@@ -128,6 +125,7 @@ class Predictor:
                 #word count
                 countdict['all_words'][key] = (float(value) + (1.0/m)) / \
                     (num_words + (unique_labels/m))
+            print len(countdict['all_words'].keys())
             self.__classes[dir] = countdict
 
     #tokenize testing data -> add log probabilities
@@ -146,11 +144,14 @@ class Predictor:
             test_vocab = defaultdict(int)
             test_vocab.update(self.files2countdict([filename]))
             for word in test_vocab['all_words']:
+                word = word.lower()
                 if word in training_dic['all_words']:
                     score += math.log(training_dic['all_words'][word])
+            '''
             for header_word in test_vocab['headers']:
                 if word in training_dic['headers']:
                     score += math.log(training_dic['headers'][header_word])
+            '''
             answers.append((score, c))
             answers.sort()
         if answers[1][1] == self.__spamFolder:
@@ -165,19 +166,22 @@ class Predictor:
         being the space-separated, lower-cased words, and the values being
         the number of times that word occurred in the files."""
         d = defaultdict(int)
+        directory = {}
+        directory['all_words'] = {}
         for file in files:
             file_string = open(file).read()
-            directory = {}
             tree = TreebankWordTokenizer()
             header, s = tree.strip_email_header(file_string)
             all_words = tree.tokenize(s)
             links = tree.tokenize_links(s)
             uppercase = tree.tokenize_uppercase(s)
-            directory['all_words'] = {}
+            '''
             directory['all_words']['number_uppercase'] = len(uppercase)
             directory['all_words']['number_links'] = len(links)
             directory['headers'] = header
+            '''
             for word in all_words:
+                word = word.lower()
                 if word in directory['all_words']:
                     directory['all_words'][word] += 1
                 else:
@@ -193,7 +197,6 @@ if __name__ == '__main__':
     ham_count, spam_count = 0, 0
     for testfile in os.listdir(dirs[-1]):
         filename = dirs[-1] + testfile
-        print filename
         try:
             result = predictor.predict(filename)
         except:

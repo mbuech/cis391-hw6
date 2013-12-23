@@ -1,400 +1,400 @@
-hw6-spamham-data/dev-test/ham146	[(-159.58188219178, 'hw6-spamham-data/spam/'), (-157.06829056743135, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam27	[(-186.05937803775765, 'hw6-spamham-data/spam/'), (-37.81850311262499, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam35	[(-187.60731154348252, 'hw6-spamham-data/spam/'), (-57.04660977124425, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham133	[(-115.666951500691, 'hw6-spamham-data/ham/'), (-111.01196798811141, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam161	[(-334.7663996691191, 'hw6-spamham-data/spam/'), (-42.56439340444774, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham95	[(-195.90576978726375, 'hw6-spamham-data/spam/'), (-152.94449059923275, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham56	[(-298.4866800264139, 'hw6-spamham-data/spam/'), (-168.69526965310357, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham199	[(-167.57746211921, 'hw6-spamham-data/spam/'), (-151.76163670740098, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam37	[(-275.7781311706538, 'hw6-spamham-data/spam/'), (-104.72732823287618, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam169	[(-103.53374965081194, 'hw6-spamham-data/spam/'), (-35.08985927961106, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham94	[(-177.36547403568125, 'hw6-spamham-data/spam/'), (-144.69581268424957, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam158	[(-31.99693011309702, 'hw6-spamham-data/spam/'), (-19.69351748799525, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam80	[(-573.9268967189195, 'hw6-spamham-data/spam/'), (-123.55594809595632, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam49	[(-168.83799615102762, 'hw6-spamham-data/spam/'), (-38.341085033846575, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam108	[(-191.30521323286533, 'hw6-spamham-data/spam/'), (-73.39484950546954, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham124	[(-129.3910381870048, 'hw6-spamham-data/ham/'), (-118.31769611926745, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham141	[(-147.24224044043603, 'hw6-spamham-data/ham/'), (-121.99051648249095, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam186	[(-166.72823298071555, 'hw6-spamham-data/spam/'), (-42.24822164313939, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam160	[(-169.3186028494667, 'hw6-spamham-data/spam/'), (-55.10648441587963, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham102	[(-214.28265492847243, 'hw6-spamham-data/spam/'), (-170.8269564587194, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham165	[(-136.62208981731314, 'hw6-spamham-data/ham/'), (-123.32837794042186, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham129	[(-180.30540818991776, 'hw6-spamham-data/spam/'), (-161.69044617751675, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam109	[(-199.48660111350912, 'hw6-spamham-data/spam/'), (-73.15115217024893, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam7	[(-219.07900879103408, 'hw6-spamham-data/spam/'), (-100.94602098908034, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam25	[(-291.8494416624891, 'hw6-spamham-data/spam/'), (-84.20021583947577, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham29	[(-175.23796106585067, 'hw6-spamham-data/spam/'), (-135.75508887489983, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham139	[(-133.87802070879107, 'hw6-spamham-data/ham/'), (-95.38964506884284, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham116	[(-145.32064062083205, 'hw6-spamham-data/ham/'), (-137.02477246134836, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam121	[(-272.5327732755757, 'hw6-spamham-data/spam/'), (-70.3543704607102, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam79	[(-443.6940571819089, 'hw6-spamham-data/spam/'), (-113.17134806172267, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham177	[(-132.25608710118485, 'hw6-spamham-data/ham/'), (-103.09658778968942, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham150	[(-128.75242205393954, 'hw6-spamham-data/spam/'), (-111.87067233536649, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham172	[(-138.43061863517454, 'hw6-spamham-data/ham/'), (-111.89363963610502, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham36	[(-186.4989620736033, 'hw6-spamham-data/spam/'), (-138.8449310243187, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham157	[(-129.02969181342755, 'hw6-spamham-data/ham/'), (-91.47498950864342, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam131	[(-232.9518639511344, 'hw6-spamham-data/spam/'), (-55.266660468703265, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham192	[(-124.93031830805221, 'hw6-spamham-data/ham/'), (-64.70186869383956, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham32	[(-192.54835559186017, 'hw6-spamham-data/spam/'), (-149.3744924491041, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham169	[(-174.24126619874102, 'hw6-spamham-data/spam/'), (-148.4004324343974, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham111	[(-181.6084163546817, 'hw6-spamham-data/spam/'), (-157.7903520079062, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam154	[(-422.7576698436551, 'hw6-spamham-data/spam/'), (-34.12213061905845, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam136	[(-356.7421642682672, 'hw6-spamham-data/spam/'), (-56.1307742760244, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam128	[(-225.43901954679365, 'hw6-spamham-data/spam/'), (-60.193592584599735, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam94	[(-343.5220552229822, 'hw6-spamham-data/spam/'), (-83.81838233590088, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam147	[(-309.7358699731193, 'hw6-spamham-data/spam/'), (-36.47315935511819, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham101	[(-224.57282648407426, 'hw6-spamham-data/spam/'), (-165.04618436497552, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam8	[(-499.97823111870224, 'hw6-spamham-data/spam/'), (-115.46130464611758, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham39	[(-150.57264027328657, 'hw6-spamham-data/spam/'), (-127.42125315157634, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham138	[(-157.7334929921522, 'hw6-spamham-data/spam/'), (-139.98956370333028, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam122	[(-826.4448642838048, 'hw6-spamham-data/spam/'), (-152.86928883580848, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam36	[(-187.60731154348252, 'hw6-spamham-data/spam/'), (-57.04660977124425, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham149	[(-134.94342685837967, 'hw6-spamham-data/ham/'), (-108.42187831681979, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham51	[(-156.12225055850985, 'hw6-spamham-data/spam/'), (-124.32294320721687, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham128	[(-126.45050869052315, 'hw6-spamham-data/ham/'), (-79.50621466711641, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam182	[(-45.17014328519219, 'hw6-spamham-data/spam/'), (-6.451045638530636, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam130	[(-232.9518639511344, 'hw6-spamham-data/spam/'), (-55.266660468703265, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham64	[(-180.2660578259607, 'hw6-spamham-data/spam/'), (-161.5778292541046, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam159	[(-169.3186028494667, 'hw6-spamham-data/spam/'), (-55.10648441587963, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam71	[(-255.32814151272032, 'hw6-spamham-data/spam/'), (-57.63179889648774, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam86	[(-142.68143616663411, 'hw6-spamham-data/spam/'), (-48.9366493995388, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham194	[(-165.47205649746311, 'hw6-spamham-data/spam/'), (-147.72153727654467, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam115	[(-286.2208642754332, 'hw6-spamham-data/spam/'), (-95.3991288946262, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham163	[(-149.48169651541758, 'hw6-spamham-data/spam/'), (-135.31882020007825, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam184	[(-250.04663609957225, 'hw6-spamham-data/spam/'), (-74.84464962269439, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham135	[(-320.2334292092493, 'hw6-spamham-data/spam/'), (-148.51559607035742, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam39	[(-465.400002945786, 'hw6-spamham-data/spam/'), (-119.75596689315569, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam114	[(-74.41399729923127, 'hw6-spamham-data/spam/'), (-16.887788370899973, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham160	[(-181.3486886172979, 'hw6-spamham-data/spam/'), (-144.35670832025846, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam42	[(-536.0112244024153, 'hw6-spamham-data/spam/'), (-119.67504457766533, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam178	[(-198.7582575072785, 'hw6-spamham-data/spam/'), (-47.28674399990041, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam111	[(-253.69048782807653, 'hw6-spamham-data/spam/'), (-76.29054828259258, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam102	[(-227.4323160682265, 'hw6-spamham-data/spam/'), (-49.12505000240914, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam58	[(-103.20955287507736, 'hw6-spamham-data/spam/'), (-31.24423101870576, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam144	[(-205.33049909904133, 'hw6-spamham-data/spam/'), (-69.97082403830969, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam38	[(-208.784746695564, 'hw6-spamham-data/spam/'), (-63.526831890901306, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam3	[(-375.4231281515388, 'hw6-spamham-data/spam/'), (-90.07082190730121, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham50	[(-124.64148049460398, 'hw6-spamham-data/spam/'), (-119.09521660577612, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam72	[(-524.9226341054731, 'hw6-spamham-data/spam/'), (-55.0777114253945, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam139	[(-252.65484567222992, 'hw6-spamham-data/spam/'), (-96.19902198024832, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam166	[(-246.71412364330223, 'hw6-spamham-data/spam/'), (-69.51857982850429, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham122	[(-132.5983360201983, 'hw6-spamham-data/ham/'), (-92.89896121812752, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam98	[(-184.51141258160496, 'hw6-spamham-data/spam/'), (-67.1179489535241, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam149	[(-422.7582824011015, 'hw6-spamham-data/spam/'), (-34.12274317650486, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam20	[(-713.3687681233572, 'hw6-spamham-data/spam/'), (-84.66675820738175, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham105	[(-238.30181845176477, 'hw6-spamham-data/spam/'), (-169.31925936666968, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam64	[(-252.35722127493239, 'hw6-spamham-data/spam/'), (-66.71248384541595, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam162	[(-281.91136240833646, 'hw6-spamham-data/spam/'), (-104.81510384375859, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam5	[(-425.4205408208411, 'hw6-spamham-data/spam/'), (-95.903290099217, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham66	[(-135.93431749591772, 'hw6-spamham-data/ham/'), (-79.98482546663647, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam197	[(-285.42954339418606, 'hw6-spamham-data/spam/'), (-87.45395116109451, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham37	[(-136.33440774486132, 'hw6-spamham-data/ham/'), (-102.89127711326208, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam157	[(-377.11709738781116, 'hw6-spamham-data/spam/'), (-58.49695758514693, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam150	[(-377.5337845456318, 'hw6-spamham-data/spam/'), (-58.50834623211094, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam45	[(-527.2485901123762, 'hw6-spamham-data/spam/'), (-141.3114701503768, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham21	[(-138.80036566068063, 'hw6-spamham-data/ham/'), (-131.80203024288448, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham181	[(-135.8169642786179, 'hw6-spamham-data/ham/'), (-124.5497619768492, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham178	[(-181.92497649645475, 'hw6-spamham-data/spam/'), (-157.7318651249644, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham190	[(-200.03136644581144, 'hw6-spamham-data/spam/'), (-157.8124948593645, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham123	[(-174.1323773318345, 'hw6-spamham-data/spam/'), (-174.11538688764588, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham175	[(-143.7230876559145, 'hw6-spamham-data/ham/'), (-139.35349803512975, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam91	[(-268.4476734112984, 'hw6-spamham-data/spam/'), (-67.03790624585058, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham195	[(-165.76673221240836, 'hw6-spamham-data/spam/'), (-145.80441074713016, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam73	[(-236.03431490590296, 'hw6-spamham-data/spam/'), (-63.85931011488688, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham179	[(-132.63607634818115, 'hw6-spamham-data/ham/'), (-102.49894746854203, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam119	[(-272.5327732755757, 'hw6-spamham-data/spam/'), (-70.3543704607102, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham86	[(-184.28648736711173, 'hw6-spamham-data/spam/'), (-156.7485201804281, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham14	[(-226.2574165836959, 'hw6-spamham-data/spam/'), (-170.1714484504003, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham49	[(-158.04290673403105, 'hw6-spamham-data/spam/'), (-127.51606370608923, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam40	[(-400.4278272818225, 'hw6-spamham-data/spam/'), (-73.99685213701576, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam199	[(-203.2071939834814, 'hw6-spamham-data/spam/'), (-62.417669391338045, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam14	[(-189.32094260792977, 'hw6-spamham-data/spam/'), (-49.33356805142871, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham118	[(-314.88383309777254, 'hw6-spamham-data/spam/'), (-185.892504453219, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham75	[(-184.2028705479693, 'hw6-spamham-data/spam/'), (-145.16379814933907, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham184	[(-144.05499019684564, 'hw6-spamham-data/ham/'), (-140.1512283851411, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham197	[(-177.32847361445104, 'hw6-spamham-data/spam/'), (-152.26159991884, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham24	[(-199.10119640704994, 'hw6-spamham-data/ham/'), (-163.01435878511515, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham153	[(-151.20362019362713, 'hw6-spamham-data/spam/'), (-148.6443646981699, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam138	[(-395.72962626226627, 'hw6-spamham-data/spam/'), (-113.46681227461652, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham89	[(-117.50682976270201, 'hw6-spamham-data/ham/'), (-85.27216709165856, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham109	[(-235.467142344906, 'hw6-spamham-data/spam/'), (-148.39104269404757, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam51	[(-839.6914305858842, 'hw6-spamham-data/spam/'), (-147.8994254745275, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham96	[(-212.9826396670258, 'hw6-spamham-data/spam/'), (-166.26277863197276, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam48	[(-168.83799615102762, 'hw6-spamham-data/spam/'), (-38.341085033846575, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham183	[(-114.06773031545117, 'hw6-spamham-data/ham/'), (-62.315830681179904, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam83	[(-225.8986179022342, 'hw6-spamham-data/spam/'), (-64.87302189966144, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham9	[(-194.4199738045714, 'hw6-spamham-data/spam/'), (-87.2242656700329, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam196	[(-285.42954339418606, 'hw6-spamham-data/spam/'), (-87.45395116109451, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham34	[(-152.64299964317857, 'hw6-spamham-data/spam/'), (-145.33968881580273, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham71	[(-136.55309694582618, 'hw6-spamham-data/ham/'), (-117.43280748519953, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam97	[(-194.2598467726457, 'hw6-spamham-data/spam/'), (-44.75695699494458, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham97	[(-189.91939967482045, 'hw6-spamham-data/spam/'), (-157.69097953409297, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham17	[(-219.89743834716737, 'hw6-spamham-data/spam/'), (-173.07846816798312, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham82	[(-136.1256529309992, 'hw6-spamham-data/ham/'), (-131.01699578890205, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham152	[(-207.03898156510056, 'hw6-spamham-data/spam/'), (-169.9116649774281, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham54	[(-184.00498790927045, 'hw6-spamham-data/spam/'), (-156.92037043735476, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham91	[(-174.175985783088, 'hw6-spamham-data/spam/'), (-148.34587228250584, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam103	[(-265.05052970052725, 'hw6-spamham-data/spam/'), (-62.1658553377657, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham161	[(-194.53708734538793, 'hw6-spamham-data/spam/'), (-143.10161637911386, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham198	[(-198.35945405533747, 'hw6-spamham-data/spam/'), (-170.93745697922515, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam145	[(-727.2181525498248, 'hw6-spamham-data/spam/'), (-153.22882750579072, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam77	[(-805.2675781296979, 'hw6-spamham-data/spam/'), (-148.19900458089114, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham162	[(-181.19356361302266, 'hw6-spamham-data/spam/'), (-153.18565265604963, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam153	[(-422.7576698436551, 'hw6-spamham-data/spam/'), (-34.12213061905845, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham27	[(-191.4196924667063, 'hw6-spamham-data/spam/'), (-147.54691825733622, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam155	[(-500.6836761502361, 'hw6-spamham-data/spam/'), (-72.70410317260323, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham48	[(-124.88230908886584, 'hw6-spamham-data/ham/'), (-111.65238492920881, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam112	[(-415.2901202572221, 'hw6-spamham-data/spam/'), (-112.23966325989672, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam76	[(-300.13136669574965, 'hw6-spamham-data/spam/'), (-98.80254055155436, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam185	[(-250.04663609957225, 'hw6-spamham-data/spam/'), (-74.84464962269439, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam85	[(-149.89313116539793, 'hw6-spamham-data/spam/'), (-48.926599063685295, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham6	[(-333.77068291308126, 'hw6-spamham-data/spam/'), (-120.08672426546957, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam181	[(-240.30920644013167, 'hw6-spamham-data/spam/'), (-75.2759321640783, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam118	[(-290.10499963633987, 'hw6-spamham-data/spam/'), (-65.02129528296314, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam146	[(-177.23560002571736, 'hw6-spamham-data/spam/'), (-62.59829518285999, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham70	[(-149.67898163987226, 'hw6-spamham-data/ham/'), (-136.42536221607384, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam12	[(-367.004862902484, 'hw6-spamham-data/spam/'), (-91.92043419507038, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam105	[(-448.9534813869207, 'hw6-spamham-data/spam/'), (-67.85183605162106, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham188	[(-148.7598064353053, 'hw6-spamham-data/ham/'), (-128.98966190432023, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam176	[(-528.7176544136628, 'hw6-spamham-data/spam/'), (-59.03582498794192, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam107	[(-189.90658142144213, 'hw6-spamham-data/spam/'), (-50.640897866485794, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham103	[(-256.6022863552194, 'hw6-spamham-data/spam/'), (-178.69585588586713, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham158	[(-140.79504031861435, 'hw6-spamham-data/ham/'), (-122.02910332436892, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam47	[(-264.40199977524156, 'hw6-spamham-data/spam/'), (-51.534388746839205, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham30	[(-173.63927845916126, 'hw6-spamham-data/spam/'), (-136.42793380287213, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham20	[(-169.93054098626118, 'hw6-spamham-data/spam/'), (-139.8019650894355, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam96	[(-194.2598467726457, 'hw6-spamham-data/spam/'), (-44.75695699494458, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham25	[(-204.05562078477806, 'hw6-spamham-data/spam/'), (-182.44794138081332, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham193	[(-344.7213083528508, 'hw6-spamham-data/spam/'), (-169.62348327968485, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam21	[(-399.48743102971207, 'hw6-spamham-data/spam/'), (-72.10542380412373, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam106	[(-358.2248634467669, 'hw6-spamham-data/spam/'), (-87.5603412472314, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham84	[(-229.15734377210902, 'hw6-spamham-data/spam/'), (-160.24452470089756, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham65	[(-232.8938560828489, 'hw6-spamham-data/spam/'), (-155.9042343705109, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam172	[(-252.22812734914632, 'hw6-spamham-data/spam/'), (-108.02189534808525, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham119	[(-213.2148966146806, 'hw6-spamham-data/spam/'), (-167.11905561102307, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham168	[(-136.19034696794972, 'hw6-spamham-data/ham/'), (-113.79409174262939, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam101	[(-261.96361690359134, 'hw6-spamham-data/spam/'), (-85.05176902543313, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam17	[(-329.03830511672714, 'hw6-spamham-data/spam/'), (-46.18294823662844, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham88	[(-192.3431217229301, 'hw6-spamham-data/spam/'), (-161.82590218846136, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham159	[(-157.2423077583083, 'hw6-spamham-data/spam/'), (-123.39978472657883, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam135	[(-356.7421642682672, 'hw6-spamham-data/spam/'), (-56.1307742760244, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam156	[(-459.8767190992757, 'hw6-spamham-data/spam/'), (-55.35469820872953, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham126	[(-245.70395776615868, 'hw6-spamham-data/spam/'), (-162.18346543238349, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam70	[(-219.9283949080013, 'hw6-spamham-data/spam/'), (-58.24393426857638, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham22	[(-192.11605256969963, 'hw6-spamham-data/spam/'), (-178.18459169791439, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham154	[(-148.23115183437798, 'hw6-spamham-data/spam/'), (-136.28222199169073, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham187	[(-174.30653639059148, 'hw6-spamham-data/spam/'), (-160.20013874295282, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham55	[(-280.7273948778727, 'hw6-spamham-data/spam/'), (-169.20198849491695, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam126	[(-545.6316850182852, 'hw6-spamham-data/spam/'), (-59.57288779488064, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham171	[(-135.67762820847224, 'hw6-spamham-data/ham/'), (-131.6321712413208, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam200	[(-74.71674257935072, 'hw6-spamham-data/spam/'), (-4.85648291586158, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam148	[(-144.79484176605226, 'hw6-spamham-data/spam/'), (-34.41566083301983, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham26	[(-146.80397965031844, 'hw6-spamham-data/spam/'), (-135.7845488318017, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham166	[(-151.54465393676432, 'hw6-spamham-data/spam/'), (-133.04087523374636, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam188	[(-254.06705078701447, 'hw6-spamham-data/spam/'), (-74.81995701010402, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam120	[(-283.0528502940858, 'hw6-spamham-data/spam/'), (-19.42780273874959, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam57	[(-196.63747544362784, 'hw6-spamham-data/spam/'), (-41.98161501685185, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham35	[(-173.0180655728146, 'hw6-spamham-data/spam/'), (-139.98956370333028, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam124	[(-272.23865842434554, 'hw6-spamham-data/spam/'), (-62.13223872696672, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam95	[(-277.9662819742333, 'hw6-spamham-data/spam/'), (-73.85808944522348, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham148	[(-166.0397390941632, 'hw6-spamham-data/spam/'), (-158.76521922099292, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam171	[(1.063363762830884, 'hw6-spamham-data/spam/'), (2.1914776263377855, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham180	[(-132.36781236158646, 'hw6-spamham-data/ham/'), (-108.23280627973045, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham121	[(-131.82213458258107, 'hw6-spamham-data/ham/'), (-107.64695049989193, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam81	[(-795.7030780499108, 'hw6-spamham-data/spam/'), (-148.15778550209873, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham19	[(-126.2079788281693, 'hw6-spamham-data/ham/'), (-80.852657742747, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam183	[(-250.04663609957225, 'hw6-spamham-data/spam/'), (-74.84464962269439, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham144	[(-153.82406966296705, 'hw6-spamham-data/spam/'), (-147.5231076086425, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham196	[(-283.48197615658694, 'hw6-spamham-data/spam/'), (-160.96346295139776, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham38	[(-139.94254406240393, 'hw6-spamham-data/ham/'), (-108.56292466075968, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham125	[(-222.6269910496592, 'hw6-spamham-data/spam/'), (-160.26265208549015, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam133	[(-314.9844713613909, 'hw6-spamham-data/spam/'), (-71.3593043922634, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam163	[(-169.3186028494667, 'hw6-spamham-data/spam/'), (-55.10648441587963, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham132	[(-263.70194453994264, 'hw6-spamham-data/spam/'), (-168.8995644404582, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham110	[(-201.03945443602922, 'hw6-spamham-data/spam/'), (-152.27718464985668, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham73	[(-164.95982810396507, 'hw6-spamham-data/spam/'), (-152.54585145619495, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham170	[(-145.23048952383775, 'hw6-spamham-data/ham/'), (-110.23164169968243, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam194	[(-225.48452172781978, 'hw6-spamham-data/spam/'), (-77.02878545748912, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham127	[(-210.43213792802968, 'hw6-spamham-data/spam/'), (-145.07092520391663, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham186	[(-132.80238090126645, 'hw6-spamham-data/ham/'), (-130.5588721670267, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham90	[(-130.94132973886636, 'hw6-spamham-data/ham/'), (-100.21643885123237, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam10	[(-250.0371822731816, 'hw6-spamham-data/spam/'), (-52.13942264458377, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam63	[(-203.0774119178231, 'hw6-spamham-data/spam/'), (-79.90907242342674, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham147	[(-237.7207260625484, 'hw6-spamham-data/spam/'), (-164.90812413688002, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham42	[(-214.7612730107818, 'hw6-spamham-data/spam/'), (-145.40886911114927, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam11	[(-231.5720256156195, 'hw6-spamham-data/spam/'), (-48.05703439942075, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam191	[(-170.6566615803808, 'hw6-spamham-data/spam/'), (-114.21861674489071, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham4	[(-343.6379366474821, 'hw6-spamham-data/spam/'), (-115.86920526459006, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam6	[(-528.3356747023623, 'hw6-spamham-data/spam/'), (-30.161604903552067, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham174	[(-199.83904616682688, 'hw6-spamham-data/spam/'), (-135.99031158312945, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham191	[(-186.7763217458407, 'hw6-spamham-data/spam/'), (-162.34925768722624, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham107	[(-241.16424587724356, 'hw6-spamham-data/spam/'), (-170.57961992010624, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam9	[(-84.8543208497902, 'hw6-spamham-data/spam/'), (-15.176831366954055, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam179	[(-404.16320972542576, 'hw6-spamham-data/spam/'), (-101.4833989588748, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham136	[(-152.65426075470216, 'hw6-spamham-data/ham/'), (-146.7107759926687, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham93	[(-170.6775054818049, 'hw6-spamham-data/spam/'), (-132.02280527804322, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham33	[(-128.1509419785252, 'hw6-spamham-data/ham/'), (-120.4804786850891, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham99	[(-218.22496996310164, 'hw6-spamham-data/spam/'), (-162.46193084973032, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam174	[(-120.9415106467509, 'hw6-spamham-data/spam/'), (-52.14480866601054, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham58	[(-145.70741359592805, 'hw6-spamham-data/ham/'), (-143.76246951356404, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam180	[(-240.30920644013167, 'hw6-spamham-data/spam/'), (-75.2759321640783, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham142	[(-163.85565854588276, 'hw6-spamham-data/spam/'), (-156.93294921956164, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam43	[(-132.50634192656182, 'hw6-spamham-data/spam/'), (-29.123395710441528, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam175	[(-187.80398376854205, 'hw6-spamham-data/spam/'), (-67.45510891096025, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham182	[(-110.05116923866812, 'hw6-spamham-data/ham/'), (-51.267916048389836, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam41	[(-181.59233335191257, 'hw6-spamham-data/spam/'), (-50.60411371877694, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham52	[(-179.2344908793639, 'hw6-spamham-data/spam/'), (-126.86423814534098, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham28	[(-151.6733531729506, 'hw6-spamham-data/spam/'), (-130.96741882633685, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam44	[(-825.5746466121574, 'hw6-spamham-data/spam/'), (-161.26690908551177, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam164	[(-257.1445839858843, 'hw6-spamham-data/spam/'), (-58.303393042558426, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham13	[(-114.49008754097979, 'hw6-spamham-data/ham/'), (-53.215156624719, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham7	[(-124.50807499175376, 'hw6-spamham-data/spam/'), (-79.02882371265007, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam189	[(-254.06705078701447, 'hw6-spamham-data/spam/'), (-74.81995701010402, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham78	[(-177.39986148736696, 'hw6-spamham-data/spam/'), (-156.90794791735618, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham113	[(-153.40232369285823, 'hw6-spamham-data/ham/'), (-152.5287477080235, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham1	[(-321.22385344945235, 'hw6-spamham-data/spam/'), (-103.97652301318485, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham106	[(-263.56079664145796, 'hw6-spamham-data/spam/'), (-169.0501824820489, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam75	[(-350.26971973575763, 'hw6-spamham-data/spam/'), (-87.87034533973485, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham53	[(-151.64906378897265, 'hw6-spamham-data/spam/'), (-141.2144280723461, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham98	[(-265.75945353818054, 'hw6-spamham-data/spam/'), (-153.49471781445948, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam113	[(-290.10499963633987, 'hw6-spamham-data/spam/'), (-65.02129528296314, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam132	[(-245.61266464176185, 'hw6-spamham-data/spam/'), (-77.21854199277058, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam29	[(-139.69508364069756, 'hw6-spamham-data/spam/'), (-46.622836414327494, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam16	[(-414.0185853511679, 'hw6-spamham-data/spam/'), (-98.52713544039013, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham120	[(-201.2031142406452, 'hw6-spamham-data/spam/'), (-169.62448253026776, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham3	[(-162.50691988717026, 'hw6-spamham-data/spam/'), (-82.1217735483788, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam32	[(-477.7478178408867, 'hw6-spamham-data/spam/'), (-42.768074129762766, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam31	[(-279.096031327725, 'hw6-spamham-data/spam/'), (-28.469095187845916, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham185	[(-141.13646653087636, 'hw6-spamham-data/ham/'), (-105.15881567785888, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham40	[(-132.10998325228437, 'hw6-spamham-data/ham/'), (-123.69972910780581, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham77	[(-235.6192312593966, 'hw6-spamham-data/spam/'), (-153.2248933594077, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham115	[(-247.1777452498996, 'hw6-spamham-data/spam/'), (-187.51807780086622, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam59	[(-203.13993227480444, 'hw6-spamham-data/spam/'), (-79.97159278040807, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam69	[(-754.2145812971185, 'hw6-spamham-data/spam/'), (-97.79044001458445, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam2	[(-419.72391806274743, 'hw6-spamham-data/spam/'), (-107.3992561073961, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham10	[(-87.72530923455611, 'hw6-spamham-data/spam/'), (-47.24535878373756, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham46	[(-159.8988416378048, 'hw6-spamham-data/spam/'), (-140.7478085410846, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham85	[(-199.7115342252936, 'hw6-spamham-data/spam/'), (-153.62698578303724, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham104	[(-248.42592025561717, 'hw6-spamham-data/spam/'), (-163.0261443469144, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam54	[(-301.55609046937474, 'hw6-spamham-data/spam/'), (-77.97573473064733, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam151	[(-377.5337845456318, 'hw6-spamham-data/spam/'), (-58.50834623211094, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam117	[(-778.6335411685094, 'hw6-spamham-data/spam/'), (-166.5727675935001, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam190	[(-254.06705078701447, 'hw6-spamham-data/spam/'), (-74.81995701010402, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam198	[(-285.42954339418606, 'hw6-spamham-data/spam/'), (-87.45395116109451, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham68	[(-137.41482083113863, 'hw6-spamham-data/ham/'), (-106.42743602117987, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam123	[(-265.05052970052725, 'hw6-spamham-data/spam/'), (-62.1658553377657, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham11	[(-82.92414570949356, 'hw6-spamham-data/spam/'), (-34.85749358529887, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham63	[(-159.13045741115286, 'hw6-spamham-data/spam/'), (-150.4788747254944, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham45	[(-250.22766205917395, 'hw6-spamham-data/spam/'), (-165.12158238245976, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam30	[(-66.16486718523423, 'hw6-spamham-data/spam/'), (-15.860403591520232, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham61	[(-183.0902624712973, 'hw6-spamham-data/spam/'), (-162.1431430631547, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham137	[(-149.4127136619243, 'hw6-spamham-data/ham/'), (-136.2448781392555, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham12	[(-132.5222581398277, 'hw6-spamham-data/spam/'), (-72.05204025628937, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam28	[(-713.9502088989018, 'hw6-spamham-data/spam/'), (-146.07196225746765, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam192	[(-204.92835510887952, 'hw6-spamham-data/spam/'), (-82.09283234709176, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham41	[(-93.6591751649493, 'hw6-spamham-data/ham/'), (-40.430390876681116, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham81	[(-153.24275508599987, 'hw6-spamham-data/spam/'), (-145.37342236215355, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam104	[(-529.6265777746163, 'hw6-spamham-data/spam/'), (-72.9462804184081, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam89	[(-405.81499733015306, 'hw6-spamham-data/spam/'), (-112.82815302959041, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam34	[(-350.2754834404745, 'hw6-spamham-data/spam/'), (-87.87610904445161, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham130	[(-230.12599963169959, 'hw6-spamham-data/spam/'), (-175.021108917921, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam168	[(-234.6961278625504, 'hw6-spamham-data/spam/'), (-80.5043260987663, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam134	[(-292.1913763500189, 'hw6-spamham-data/spam/'), (-60.60159136470856, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam110	[(-199.48660111350912, 'hw6-spamham-data/spam/'), (-73.15115217024893, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham15	[(-203.88003829314493, 'hw6-spamham-data/spam/'), (-149.0748874819452, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham176	[(-124.15913978121701, 'hw6-spamham-data/ham/'), (-76.42912734057704, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam61	[(-317.05056296285886, 'hw6-spamham-data/spam/'), (-44.2209963632381, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham108	[(-223.48322976396884, 'hw6-spamham-data/spam/'), (-170.6822740741663, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam1	[(-328.248759000547, 'hw6-spamham-data/spam/'), (-169.14669676057997, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam90	[(-338.0569059993107, 'hw6-spamham-data/spam/'), (-95.86249945557083, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham67	[(-153.20539492194553, 'hw6-spamham-data/spam/'), (-145.14779780799262, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam55	[(-282.97913271818925, 'hw6-spamham-data/spam/'), (-19.354085162853025, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam82	[(-343.5220552229822, 'hw6-spamham-data/spam/'), (-83.81838233590088, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham8	[(-236.3681778729404, 'hw6-spamham-data/spam/'), (-91.28791163632687, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam56	[(-152.01658710066957, 'hw6-spamham-data/spam/'), (-34.41566083301983, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam170	[(-391.5377240723566, 'hw6-spamham-data/spam/'), (-94.61341894926908, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham143	[(-124.75048301207212, 'hw6-spamham-data/ham/'), (-120.09867242618422, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham76	[(-146.62767848481573, 'hw6-spamham-data/ham/'), (-119.20780746864698, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam173	[(-163.08974273143187, 'hw6-spamham-data/spam/'), (-64.15494092503224, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham62	[(-156.68675898189974, 'hw6-spamham-data/spam/'), (-148.80825881869126, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam60	[(-290.34138901832705, 'hw6-spamham-data/spam/'), (-62.85099145394917, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam66	[(-236.03431490590296, 'hw6-spamham-data/spam/'), (-63.85931011488688, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam26	[(-320.50835275546046, 'hw6-spamham-data/spam/'), (-99.73905167926438, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam65	[(-252.35722127493239, 'hw6-spamham-data/spam/'), (-66.71248384541595, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam13	[(-247.65888479514396, 'hw6-spamham-data/spam/'), (-103.94912403899674, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam140	[(-579.6222064816892, 'hw6-spamham-data/spam/'), (-85.26680459040932, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam142	[(-412.0443522407155, 'hw6-spamham-data/spam/'), (-63.854025127103405, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham100	[(-230.94227707370055, 'hw6-spamham-data/spam/'), (-166.03586859786307, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam74	[(-457.3325816425726, 'hw6-spamham-data/spam/'), (-54.84912366365242, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham72	[(-213.3989789592674, 'hw6-spamham-data/spam/'), (-152.13583053155097, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam187	[(-166.72823298071555, 'hw6-spamham-data/spam/'), (-42.24822164313939, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam137	[(-266.36094521894626, 'hw6-spamham-data/spam/'), (-69.23962879011222, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam68	[(-409.63358319953306, 'hw6-spamham-data/spam/'), (-130.23618581366313, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham57	[(-116.85192253541636, 'hw6-spamham-data/ham/'), (-58.56975215427599, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham59	[(-145.3914250171646, 'hw6-spamham-data/spam/'), (-144.97344442084784, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham79	[(-169.09239287637064, 'hw6-spamham-data/spam/'), (-145.13204945102453, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam15	[(-190.03550760127555, 'hw6-spamham-data/spam/'), (-44.5335832071263, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam33	[(-155.43418505833088, 'hw6-spamham-data/spam/'), (-40.85599254649968, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam23	[(-149.18305741737112, 'hw6-spamham-data/spam/'), (-39.55494620371346, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham69	[(-146.69827320243056, 'hw6-spamham-data/spam/'), (-136.9580624286429, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham112	[(-181.96497510910766, 'hw6-spamham-data/spam/'), (-161.96082150636073, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam152	[(-377.5337845456318, 'hw6-spamham-data/spam/'), (-58.50834623211094, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam46	[(-264.40199977524156, 'hw6-spamham-data/spam/'), (-51.534388746839205, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam67	[(-236.03431490590296, 'hw6-spamham-data/spam/'), (-63.85931011488688, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam167	[(-151.73664856632732, 'hw6-spamham-data/spam/'), (-44.88503056530247, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham151	[(-183.95836347581056, 'hw6-spamham-data/spam/'), (-158.4535856779684, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam22	[(-142.06249236710954, 'hw6-spamham-data/spam/'), (-51.26590649362524, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam193	[(-243.3892909571197, 'hw6-spamham-data/spam/'), (-88.6105600311528, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham87	[(-153.62984165655385, 'hw6-spamham-data/spam/'), (-146.05175445692834, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham43	[(-166.63482176661637, 'hw6-spamham-data/spam/'), (-136.46793913748584, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam19	[(-276.0134457394791, 'hw6-spamham-data/spam/'), (-69.86076543469588, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam87	[(-443.68890253132025, 'hw6-spamham-data/spam/'), (-113.166193411134, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham189	[(-190.19740979800872, 'hw6-spamham-data/spam/'), (-148.02741855138729, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham200	[(-311.37008162647805, 'hw6-spamham-data/spam/'), (-182.14057862421825, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham140	[(-241.00847492224463, 'hw6-spamham-data/spam/'), (-170.2560058384284, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham18	[(-124.51314261031312, 'hw6-spamham-data/spam/'), (-119.8756248823307, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham117	[(-245.01099995803403, 'hw6-spamham-data/spam/'), (-157.6250971495387, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam127	[(-250.42749313484245, 'hw6-spamham-data/spam/'), (-66.64052525614235, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham2	[(-157.66648185858614, 'hw6-spamham-data/spam/'), (-83.09154341588408, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam84	[(-257.02358574305435, 'hw6-spamham-data/spam/'), (-67.68054338054442, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam62	[(-236.03431490590296, 'hw6-spamham-data/spam/'), (-63.85931011488688, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam129	[(-177.9828144275476, 'hw6-spamham-data/spam/'), (-63.34550958469021, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham155	[(-228.12122520454332, 'hw6-spamham-data/spam/'), (-178.02085802381285, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam93	[(-245.61266464176185, 'hw6-spamham-data/spam/'), (-77.21854199277058, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham47	[(-293.95755917962526, 'hw6-spamham-data/spam/'), (-173.2959459817616, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham92	[(-153.98799912857456, 'hw6-spamham-data/ham/'), (-131.03131595686904, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam88	[(-295.25384735113073, 'hw6-spamham-data/spam/'), (-56.158936519059395, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam18	[(-332.8246765563539, 'hw6-spamham-data/spam/'), (-68.85572785991988, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam177	[(-125.41746176202606, 'hw6-spamham-data/spam/'), (-58.03212554961774, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham114	[(-149.6293846987329, 'hw6-spamham-data/ham/'), (-134.59875918093806, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham134	[(-203.80210207807193, 'hw6-spamham-data/spam/'), (-158.46818447738954, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam143	[(-431.94996477240414, 'hw6-spamham-data/spam/'), (-63.88532827661445, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam92	[(-343.5220552229822, 'hw6-spamham-data/spam/'), (-83.81838233590088, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham131	[(-233.076870940972, 'hw6-spamham-data/spam/'), (-183.0654784469992, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham83	[(-135.73528624760365, 'hw6-spamham-data/ham/'), (-120.4698789067705, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham145	[(-230.67621295390146, 'hw6-spamham-data/spam/'), (-155.65392245915888, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam141	[(-431.9455883978044, 'hw6-spamham-data/spam/'), (-63.88095190201465, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam52	[(-380.9569489800824, 'hw6-spamham-data/spam/'), (-35.340824165958445, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham16	[(-226.2574165836959, 'hw6-spamham-data/spam/'), (-170.1714484504003, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham80	[(-138.13438635249426, 'hw6-spamham-data/ham/'), (-112.42369338149089, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam125	[(-282.58091956647576, 'hw6-spamham-data/spam/'), (-62.02275449412503, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham60	[(-263.45871496510637, 'hw6-spamham-data/spam/'), (-164.76973836579072, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham5	[(-50.94916218730171, 'hw6-spamham-data/spam/'), (-40.41994364120007, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham167	[(-175.1568169324769, 'hw6-spamham-data/spam/'), (-166.2632782572642, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam165	[(-169.3186028494667, 'hw6-spamham-data/spam/'), (-55.10648441587963, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam116	[(-225.43901954679365, 'hw6-spamham-data/spam/'), (-60.193592584599735, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham44	[(-181.5244777100436, 'hw6-spamham-data/spam/'), (-128.01036002790403, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham156	[(-263.14514592754307, 'hw6-spamham-data/spam/'), (-152.85146760504415, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam50	[(-174.37955668727798, 'hw6-spamham-data/spam/'), (-50.6130823887597, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam99	[(-258.86630681437964, 'hw6-spamham-data/spam/'), (-71.41705074015226, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam195	[(-61.12390508481302, 'hw6-spamham-data/spam/'), (-37.74628299182266, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam78	[(-443.6940571819089, 'hw6-spamham-data/spam/'), (-113.17134806172267, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam53	[(-275.41017341710466, 'hw6-spamham-data/spam/'), (-101.07007363775034, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham173	[(-154.0477183632762, 'hw6-spamham-data/ham/'), (-143.125682300133, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam100	[(-261.96361690359134, 'hw6-spamham-data/spam/'), (-85.05176902543313, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham164	[(-222.7474786227397, 'hw6-spamham-data/spam/'), (-157.61301799262327, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/spam4	[(-375.4231281515388, 'hw6-spamham-data/spam/'), (-90.07082190730121, 'hw6-spamham-data/ham/')]	Ham
-hw6-spamham-data/dev-test/ham74	[(-171.6541346571953, 'hw6-spamham-data/ham/'), (-128.87747912009027, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham23	[(-140.2008727969975, 'hw6-spamham-data/ham/'), (-125.16073150110344, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/ham31	[(-115.70354973246002, 'hw6-spamham-data/ham/'), (-113.28090713152193, 'hw6-spamham-data/spam/')]	Spam
-hw6-spamham-data/dev-test/spam24	[(-291.8494416624891, 'hw6-spamham-data/spam/'), (-84.20021583947577, 'hw6-spamham-data/ham/')]	Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Spam
+Spam
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Spam
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Spam
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Spam
+Ham
+Ham
+Ham
+Spam
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Spam
+Ham
+Spam
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Spam
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Spam
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham
+Spam
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Ham
+Spam
+Ham
+Ham

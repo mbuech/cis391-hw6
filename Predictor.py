@@ -7,7 +7,6 @@ import os
 import sys
 import re
 import pickle
-import nltk
 from collections import defaultdict
 from email.parser import Parser
 

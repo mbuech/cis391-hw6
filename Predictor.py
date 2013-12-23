@@ -57,7 +57,7 @@ class TreebankWordTokenizer():
                 body += str(email_dict.get_payload())
         relevant_headers = ['To', 'From', 'Subject']
         d = {}
-        for h in relevant_headers: 
+        for h in relevant_headers:
             key = h + "*" + str(email_dict[h])
             if key in d:
                 d[key] +=1
@@ -120,19 +120,13 @@ class Predictor:
             # into a dictionary of smoothed word probabilities
             #**
             num_words = 0
-            num_links = countdict['number_links']
-            num_uppercase =  countdict['number_uppercase']
             for key in countdict['all_words']:
                 num_words += countdict['all_words'][key]
             unique_labels = float(len(countdict['all_words'].keys()))
-            m = 1000
+            m = 1000.0
             for key, value in countdict['all_words'].iteritems():
                 #word count
                 countdict['all_words'][key] = (float(value) + (1.0/m)) / \
-                    (num_words + (unique_labels/m))
-            countdict['number_uppercase'] = (float(num_uppercase) + (1.0/m)) /\
-                    (num_words + (unique_labels/m))
-            countdict['number_links'] = (float(num_links) + (1.0/m)) /\
                     (num_words + (unique_labels/m))
             self.__classes[dir] = countdict
 
@@ -159,11 +153,11 @@ class Predictor:
                     score += math.log(training_dic['headers'][header_word])
             #how do we incorporate number_uppercase and number_links???
             if test_vocab['number_uppercase'] != 0 and training_dic['number_uppercase'] != 0:
-                score += math.log(test_vocab['number_uppercase'] * training_dic['number_uppercase'])
+                score += math.log(training_dic['number_uppercase'])
             if test_vocab['number_links'] != 0 and training_dic['number_links'] != 0:
-                score += math.log(test_vocab['number_links'] * training_dic['number_links'])
+                score += math.log(training_dic['number_links'])
             answers.append((score, c))
-        answers.sort()
+            answers.sort()
         if answers[1][1] == self.__spamFolder:
             return True
         else:
@@ -182,10 +176,10 @@ class Predictor:
             all_words = tree.tokenize(s)
             links = tree.tokenize_links(s)
             uppercase = tree.tokenize_uppercase(s)
-            directory['number_uppercase'] = len(uppercase)
-            directory['number_links'] = len(links)
-            directory['headers'] = header
             directory['all_words'] = {}
+            directory['all_words']['number_uppercase'] = len(uppercase)
+            directory['all_words']['number_links'] = len(links)
+            directory['headers'] = header
             for word in all_words:
                 if word in directory['all_words']:
                     directory['all_words'][word] += 1

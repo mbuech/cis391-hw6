@@ -11,6 +11,76 @@ import nltk
 from collections import defaultdict
 from email.parser import Parser
 
+class TreebankWordTokenizer():
+    # List of contractions adapted from Robert MacIntyre's tokenizer.
+    CONTRACTIONS2 = [re.compile(r"(?i)(.)('ll|'re|'ve|n't|'s|'m|'d)\b"),
+                     re.compile(r"(?i)\b(can)(not)\b"),
+                     re.compile(r"(?i)\b(D)('ye)\b"),
+                     re.compile(r"(?i)\b(Gim)(me)\b"),
+                     re.compile(r"(?i)\b(Gon)(na)\b"),
+                     re.compile(r"(?i)\b(Got)(ta)\b"),
+                     re.compile(r"(?i)\b(Lem)(me)\b"),
+                     re.compile(r"(?i)\b(Mor)('n)\b"),
+                     re.compile(r"(?i)\b(T)(is)\b"),
+                     re.compile(r"(?i)\b(T)(was)\b"),
+                     re.compile(r"(?i)\b(Wan)(na)\b")]
+    CONTRACTIONS3 = [re.compile(r"(?i)\b(Whad)(dd)(ya)\b"),
+                     re.compile(r"(?i)\b(Wha)(t)(cha)\b")]
+
+    def tokenize(self, text):
+        for regexp in self.CONTRACTIONS2:
+            text = regexp.sub(r'\1 \2', text)
+        for regexp in self.CONTRACTIONS3:
+            text = regexp.sub(r'\1 \2 \3', text)
+
+        # Separate most punctuation
+        text = re.sub(r"([^\w\.\'\-\/,&])", r' \1 ', text)
+
+        # Separate commas if they're followed by space.
+        # (E.g., don't separate 2,500)
+        text = re.sub(r"(,\s)", r' \1', text)
+
+        # Separate single quotes if they're followed by a space.
+        text = re.sub(r"('\s)", r' \1', text)
+
+        # Separate periods that come before newline or end of string.
+        text = re.sub('\. *(\n|$)', ' . ', text)
+
+        return text.split()
+
+    def strip_email_header(self, filestring):
+        email_dict = Parser().parsestr(filestring)
+        body = ''
+        if email_dict.is_multipart():
+            for part in email_dict.get_payload():
+                body += part.get_payload()
+        else:
+                body += email_dict.get_payload()
+        relevant_headers = ['To', 'From', 'Subject']
+        for h in relevant_headers: d[h + "*" + header[h]]['total']+=1
+        s = email_body
+        s = re.sub('\d[.,]\d')
+        s = re.sub('([.,;!?()])', r' \1 ', s)
+        s = re.sub('\s{2,}', ' ', s)
+        return s
+
+    def tokenize_links(self, text):
+        new_text = self.tokenize(text)
+        d = []
+        for w in new_text:
+            w = w.lower()
+            if w not in d:
+                if 'www' in w or 'http' in w:
+                    d.append(w)
+
+    def tokenize_uppercase(self, text):
+        new_text = self.tokenize(text)
+        d = []
+        for w in new_text:
+            if w.upper() == word:
+                d.append(w)
+        return d
+
 
 class Predictor:
     '''

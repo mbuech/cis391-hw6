@@ -62,7 +62,7 @@ class TreebankWordTokenizer():
         s = re.sub('\d[.,]\d')
         s = re.sub('([.,;!?()])', r' \1 ', s)
         s = re.sub('\s{2,}', ' ', s)
-        return s
+        return h, s
 
     def tokenize_links(self, text):
         new_text = self.tokenize(text)
@@ -155,26 +155,31 @@ class Predictor:
     for file in files:
         file_string = open(file).read()
         email_dic = strip_email(file_string)
+        tree = TreeBankTokenizer()
+        d, s = tree.strip_email_headers()
+        all_words = tree.tokenize(s)
+        links = tree.tokenize_links(s)
+        uppercase = tree.tokenize_uppercase(s)
         #todo: tokenize using clara's method
         #((\d*[\,.]\d*)+)
-        for word in nltk.word_tokenize(file_string):
-            #urls
-            if 'www' in word.lower() or 'http' in word.lower():
-                if d['(www)'] != None:
-                    d['(www)']['count'] += 1
-                else:
-                    d['(www)']['count'] = 1
-            #capitalization
-            if word = word.upper():
-                if d[word.lower()]['upper'] != None:
-                    d[word.lower()]['upper'] += 1
-                else:
-                    d[word.lower()]['upper'] = 1
-            #word count
-            if d[word.lower()] != None:
-                d[word.lower()]['count'] += 1
-            else:
-                d[word.lower()]['count'] = 1
+        # for word in nltk.word_tokenize(file_string):
+        #     #urls
+        #     if 'www' in word.lower() or 'http' in word.lower():
+        #         if d['(www)'] != None:
+        #             d['(www)']['count'] += 1
+        #         else:
+        #             d['(www)']['count'] = 1
+        #     #capitalization
+        #     if word = word.upper():
+        #         if d[word.lower()]['upper'] != None:
+        #             d[word.lower()]['upper'] += 1
+        #         else:
+        #             d[word.lower()]['upper'] = 1
+        #     #word count
+        #     if d[word.lower()] != None:
+        #         d[word.lower()]['count'] += 1
+        #     else:
+        #         d[word.lower()]['count'] = 1
     return d
 
 if __name__ == '__main__':

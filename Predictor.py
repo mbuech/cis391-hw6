@@ -53,16 +53,22 @@ class TreebankWordTokenizer():
         body = ''
         if email_dict.is_multipart():
             for part in email_dict.get_payload():
-                body += part.get_payload()
+                body += str(part.get_payload())
         else:
-                body += email_dict.get_payload()
+                body += str(email_dict.get_payload())
         relevant_headers = ['To', 'From', 'Subject']
-        for h in relevant_headers: d[h + "*" + header[h]]['total']+=1
-        s = email_body
-        s = re.sub('\d[.,]\d')
+        d = {}
+        for h in relevant_headers: 
+            key = h + "*" + str(email_dict[h])
+            if key in d:
+                d[key] +=1
+            else:
+                d[key] = 1
+        s = body
+        s = re.sub('\d[.,]\d', ' ', s)
         s = re.sub('([.,;!?()])', r' \1 ', s)
         s = re.sub('\s{2,}', ' ', s)
-        return h, s
+        return d, s
 
     def tokenize_links(self, text):
         new_text = self.tokenize(text)
@@ -72,12 +78,13 @@ class TreebankWordTokenizer():
             if w not in d:
                 if 'www' in w or 'http' in w:
                     d.append(w)
+        return d
 
     def tokenize_uppercase(self, text):
         new_text = self.tokenize(text)
         d = []
         for w in new_text:
-            if w.upper() == word:
+            if w.upper() == w:
                 d.append(w)
         return d
 
@@ -100,7 +107,7 @@ class Predictor:
         # Set up the vocabulary for all files in the training set
         vocab = defaultdict(int)
         for dir in self.__classes:
-            vocab.update(files2countdict(glob.glob(dir+"/*")))
+            vocab.update(self.files2countdict(glob.glob(dir+"/*")))
         # Set all counts to 0
         vocab = defaultdict(int, zip(vocab.iterkeys(), [0 for i in vocab.values()]))
 
@@ -108,7 +115,7 @@ class Predictor:
              # Initialize to zero counts
             countdict = defaultdict(int, vocab)
             # Add in counts from this class
-            countdict.update(files2countdict(glob.glob(dir+"/*")))
+            countdict.update(self.files2countdict(glob.glob(dir+"/*")))
             #***
             # Here turn the "countdict" dictionary of word counts into
             # into a dictionary of smoothed word probabilities
@@ -122,14 +129,13 @@ class Predictor:
             m = 1000
             for key, value in countdict['all_words'].iteritems():
                 #word count
-                countdict['all_words'][key] = (float(value['count']) + (1.0/m)) / \
+                countdict['all_words'][key] = (float(value) + (1.0/m)) / \
                     (num_words + (unique_labels/m))
             countdict['number_uppercase'] = (float(num_uppercase) + (1.0/m)) /\
                     (num_words + (unique_labels/m))
             countdict['number_links'] = (float(num_links) + (1.0/m)) /\
                     (num_words + (unique_labels/m))
-
-        self.__classes[dir] = countdict
+            self.__classes[dir] = countdict
 
     #tokenize testing data -> add log probabilities
     def predict(self, filename):
@@ -145,40 +151,48 @@ class Predictor:
             score = 0.0
             training_dic = self.__classes[c]
             test_vocab = defaultdict(int)
-            test_vocab.update(files2countdict([filename]))
+            test_vocab.update(self.files2countdict([filename]))
             for word in test_vocab['all_words']:
-                score += math.log(training_dic['all_words'][word])
+                if word in training_dic['all_words']:
+                    score += math.log(training_dic['all_words'][word])
             for header_word in test_vocab['headers']:
-                score += math.log(training_dic['headers'][header_word])
+                if word in training_dic['headers']:
+                    score += math.log(training_dic['headers'][header_word])
             #how do we incorporate number_uppercase and number_links???
-            score += math.log(test_vocab['number_uppercase'] * training_dic['number'])
-            score += math.log(test_vocab['number_links'] * training_dic['number_links'])
-            answer.append((score, c))
+            if test_vocab['number_uppercase'] != 0 and training_dic['number_uppercase'] != 0:
+                score += math.log(test_vocab['number_uppercase'] * training_dic['number_uppercase'])
+            if test_vocab['number_links'] != 0 and training_dic['number_links'] != 0:
+                score += math.log(test_vocab['number_links'] * training_dic['number_links'])
+            answers.append((score, c))
         answers.sort()
         if answers[1][1] == self.__spamFolder:
             return True
         else:
             return False
 
-    def files2countdict (files):
-    """Given an array of filenames, return a dictionary with keys
-    being the space-separated, lower-cased words, and the values being
-    the number of times that word occurred in the files."""
-    d = defaultdict(int)
-    for file in files:
-        file_string = open(file).read()
-        email_dic = strip_email(file_string)
-        directory = {}
-        tree = TreeBankTokenizer()
-        header, s = tree.strip_email_headers()
-        all_words = tree.tokenize(s)
-        links = tree.tokenize_links(s)
-        uppercase = tree.tokenize_uppercase(s)
-        directory['number_uppercase'] = len(uppercase)
-        directory['number_links'] = len(links)
-        directory['headers'] = header
-        directory['all_words'] = all_words
-    return directory
+    def files2countdict(self, files):
+        """Given an array of filenames, return a dictionary with keys
+        being the space-separated, lower-cased words, and the values being
+        the number of times that word occurred in the files."""
+        d = defaultdict(int)
+        for file in files:
+            file_string = open(file).read()
+            directory = {}
+            tree = TreebankWordTokenizer()
+            header, s = tree.strip_email_header(file_string)
+            all_words = tree.tokenize(s)
+            links = tree.tokenize_links(s)
+            uppercase = tree.tokenize_uppercase(s)
+            directory['number_uppercase'] = len(uppercase)
+            directory['number_links'] = len(links)
+            directory['headers'] = header
+            directory['all_words'] = {}
+            for word in all_words:
+                if word in directory['all_words']:
+                    directory['all_words'][word] += 1
+                else:
+                    directory['all_words'][word] = 1
+        return directory
 
 if __name__ == '__main__':
     print 'argv', sys.argv
@@ -187,7 +201,10 @@ if __name__ == '__main__':
     predictor = Predictor(dirs[0], dirs[1])
     ham_count, spam_count = 0, 0
     for testfile in os.listdir(dirs[-1]):
-        result = predictor.predict(testfile)
+        try:
+            result = predictor.predict(dirs[0] + testfile)
+        except:
+            result = predictor.predict(dirs[1] + testfile)
         if result:
             spam_count += 1
         else:

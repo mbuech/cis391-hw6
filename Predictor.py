@@ -144,7 +144,7 @@ class Predictor:
         False - filename is not spam (is ham)
         '''
         answers = []
-        print 'Classifying', filename
+        #print 'Classifying', filename
         # do prediction on filename
         for c in self.__classes:
             score = 0.0
@@ -164,9 +164,12 @@ class Predictor:
                 score += math.log(test_vocab['number_links'] * training_dic['number_links'])
             answers.append((score, c))
         answers.sort()
+        fout.write(str(filename) + "\t" + str(answers) + "\t")
         if answers[1][1] == self.__spamFolder:
+            fout.write("Spam" + "\n")
             return True
         else:
+            fout.write("Ham" + "\n")
             return False
 
     def files2countdict(self, files):
@@ -196,16 +199,20 @@ class Predictor:
 if __name__ == '__main__':
     print 'argv', sys.argv
     print "Usage:", sys.argv[0], "classdir1 classdir2 [classdir3...] testdir1"
-    dirs = sys.argv[1:3]
+    fout = open("results.txt", "w")
+    dirs = sys.argv[1:4]
     predictor = Predictor(dirs[0], dirs[1])
     ham_count, spam_count = 0, 0
     for testfile in os.listdir(dirs[-1]):
+        filename = dirs[-1] + testfile
+        print filename
         try:
-            result = predictor.predict(dirs[0] + testfile)
+            result = predictor.predict(filename)
         except:
-            result = predictor.predict(dirs[1] + testfile)
+            result = predictor.predict(filename)
         if result:
             spam_count += 1
         else:
             ham_count += 1
     print spam_count, ham_count
+    fout.close()

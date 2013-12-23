@@ -151,8 +151,8 @@ class Predictor:
             for header_word in test_vocab['headers']:
                 score += math.log(training_dic['headers'][header_word])
             #how do we incorporate number_uppercase and number_links???
-            score += math.log(test_vocab['number_uppercase'] / training_dic['number'])
-            score += math.log(test_vocab['number_links'] / training_dic['number_links'])
+            score += math.log(test_vocab['number_uppercase'] * training_dic['number'])
+            score += math.log(test_vocab['number_links'] * training_dic['number_links'])
             answer.append((score, c))
         answers.sort()
         if answers[1][1] == self.__spamFolder:

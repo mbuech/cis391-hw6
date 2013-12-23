@@ -90,10 +90,11 @@ class Predictor:
         self.__createdAt = time.strftime("%d %b %H:%M:%S", time.gmtime())
         self.__spamFolder = spamFolder
         self.__hamFolder = hamFolder
-        self.__classes = [spamFolder: None, hamFolder: None]
+        self.__classes = {spamFolder: None, hamFolder: None}
         # do training on spam and ham
         self.__train__()
 
+    # probability
     def __train__(self):
         '''train model on spam and ham'''
         # Set up the vocabulary for all files in the training set
@@ -113,20 +114,24 @@ class Predictor:
             # into a dictionary of smoothed word probabilities
             #**
             num_words = 0
-            num_uppercase = 0
-            for key in countdict:
-                num_words += countdict[key]['count']
-                num_uppercase += countdict[key]['upper']
-            unique_labels = float(len(countdict.keys()))
-            for key, value in countdict.iteritems():
-            #capitalization
-            countdict[key]['upper'] = (float(value['upper']) + 1.0) / \
-                (num_uppercase + unique_labels)
+            num_links = countdict['number_links']
+            num_uppercase =  countdict['number_uppercase']
+            for key in countdict['all_words']:
+                num_words += countdict['all_words'][key]
+            unique_labels = float(len(countdict['all_words'].keys()))
+            m = 1000
+            for key, value in countdict['all_words'].iteritems():
             #word count
-            countdict[key]['count'] = (float(value['count']) + 1.0) / \
-                (num_words + unique_labels)
+                countdict['all_words'][key] = (float(value['count']) + (1.0/m)) / \
+                    (num_words + (unique_labels/m))
+            countdict['number_uppercase'] = (float(num_uppercase) + (1.0/m)) /\
+                    (num_words + (unique_labels/m))
+            countdict['number_links'] = (float(num_links) + (1.0/m)) /\
+                    (num_words + (unique_labels/m))
+
         self.__classes[dir] = countdict
 
+    #tokenize testing data -> add log probabilities
     def predict(self, filename):
         '''Take in a filename, return whether this file is spam
         return value:
@@ -155,11 +160,16 @@ class Predictor:
     for file in files:
         file_string = open(file).read()
         email_dic = strip_email(file_string)
+        directory = {}
         tree = TreeBankTokenizer()
-        d, s = tree.strip_email_headers()
+        header, s = tree.strip_email_headers()
         all_words = tree.tokenize(s)
         links = tree.tokenize_links(s)
         uppercase = tree.tokenize_uppercase(s)
+        directory['number_uppercase'] = len(uppercase)
+        directory['number_links'] = len(links)
+        directory['headers'] = header
+        directory['all_words'] = all_words
         #todo: tokenize using clara's method
         #((\d*[\,.]\d*)+)
         # for word in nltk.word_tokenize(file_string):
@@ -180,7 +190,7 @@ class Predictor:
         #         d[word.lower()]['count'] += 1
         #     else:
         #         d[word.lower()]['count'] = 1
-    return d
+    return directory
 
 if __name__ == '__main__':
     print 'argv', sys.argv

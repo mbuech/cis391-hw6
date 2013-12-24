@@ -76,6 +76,16 @@ class TreebankWordTokenizer():
                     d.append(w)
         return d
 
+    def tokenize_cash(self, text):
+        new_text = self.tokenize(text)
+        d = []
+        for w in new_text:
+            w = w.lower()
+            if w not in d:
+                if '$' in w or '%' in w:
+                    d.append(w)
+        return d
+
     def tokenize_uppercase(self, text):
         new_text = self.tokenize(text)
         d = []
@@ -134,15 +144,15 @@ class Predictor:
             # into a dictionary of smoothed word probabilities
             #**
             num_words = 0
-            for key in countdict['all_words']:
-                num_words += countdict['all_words'][key]
-            unique_labels = float(len(countdict['all_words'].keys()))
+            for key in countdict:
+                num_words += countdict[key]
+            unique_labels = float(len(countdict.keys()))
             m = 1000.0
-            for key, value in countdict['all_words'].iteritems():
+            for key, value in countdict.iteritems():
                 #word count
-                countdict['all_words'][key] = (float(value) + (1.0/m)) / \
+                countdict[key] = (float(value) + (1.0/m)) / \
                     ((unique_labels/m))
-            print len(countdict['all_words'].keys())
+            print len(countdict.keys())
             self.__classes[dir] = countdict
 
     def predict(self, filename):
@@ -159,10 +169,10 @@ class Predictor:
             training_dic = self.__classes[c]
             test_vocab = defaultdict(int)
             test_vocab.update(self.files2countdict([filename]))
-            for word in test_vocab['all_words']:
+            for word in test_vocab:
                 word = word.lower()
-                if word in training_dic['all_words']:
-                    score += math.log(training_dic['all_words'][word])
+                if word in training_dic:
+                    score += math.log(training_dic[word])
             answers.append((score, c))
         answers.sort()
         if answers[1][1] == self.__spamFolder:
@@ -178,28 +188,38 @@ class Predictor:
         the number of times that word occurred in the files."""
         d = defaultdict(int)
         directory = {}
-        directory['all_words'] = {}
-        directory['all_words']['number_uppercase'] = 0
-        directory['all_words']['number_links'] = 0
-        directory['all_words']['num_html_tags'] = 0
+        directory['number_uppercase'] = 0
+        directory['number_links'] = 0
+        directory['number_cash'] = 0
         for file in files:
             file_string = open(file).read()
             tree = TreebankWordTokenizer()
             header, s = tree.strip_email_header(file_string)
             all_words = tree.tokenize(s)
             links = tree.tokenize_links(s)
+            cash = tree.tokenize_cash(s)
+            bigrams = tree.tokenize_bigrams(s)
             uppercase = tree.tokenize_uppercase(s)
             html_tags = tree.tokenize_html(s)
-            directory['all_words']['number_uppercase'] += len(uppercase)
-            directory['all_words']['number_links'] += len(links)
-            directory['all_words']['num_html_tags'] += len(html_tags)
+            directory['num_html_tags'] += len(html_tags)
+            directory['number_uppercase'] += len(uppercase)
+            directory['number_links'] += len(links)
+            directory['number_cash'] += len(cash)
+            for b in bigrams:
+                b = b.lower()
+                if b in directory:
+                    directory[b] += 1
+                else:
+                    directory[b] = 1
+
             for word in all_words:
                 word = word.lower()
-                if word in directory['all_words']:
-                    directory['all_words'][word] += 1
+                if word in directory:
+                    directory[word] += 1
                 else:
-                    directory['all_words'][word] = 1
-            directory['all_words'].update(header)
+                    directory[word] = 1
+
+            directory.update(header)
         return directory
 
 if __name__ == '__main__':

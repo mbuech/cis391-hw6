@@ -94,6 +94,13 @@ class TreebankWordTokenizer():
             x += 1
         return d
 
+    def tokenize_bigrams(self, text):
+        new_text = self.tokenize(text)
+        d = []
+        x = 0
+        while x < len(new_text) - 1:
+            d.append(new_text[x].lower() + " " + new_text[x+1].lower())
+        return d
 
 class Predictor:
     '''
@@ -130,7 +137,6 @@ class Predictor:
             for key in countdict['all_words']:
                 num_words += countdict['all_words'][key]
             unique_labels = float(len(countdict['all_words'].keys()))
-            #m = 1.0
             m = 1000.0
             for key, value in countdict['all_words'].iteritems():
                 #word count

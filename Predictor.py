@@ -192,6 +192,7 @@ class Predictor:
         directory['number_uppercase'] = 0
         directory['number_links'] = 0
         directory['number_cash'] = 0
+        directory['num_html_tags'] = 0
         for file in files:
             file_string = open(file).read()
             tree = TreebankWordTokenizer()

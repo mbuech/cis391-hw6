@@ -125,7 +125,7 @@ class Predictor:
             for key, value in countdict['all_words'].iteritems():
                 #word count
                 countdict['all_words'][key] = (float(value) + (1.0/m)) / \
-                    (float(num_words) + (unique_labels/m))
+                    ((unique_labels/m))
             print len(countdict['all_words'].keys())
             self.__classes[dir] = countdict
 
@@ -147,11 +147,6 @@ class Predictor:
                 word = word.lower()
                 if word in training_dic['all_words']:
                     score += math.log(training_dic['all_words'][word])
-            '''
-            for header_word in test_vocab['headers']:
-                if word in training_dic['headers']:
-                    score += math.log(training_dic['headers'][header_word])
-            '''
             answers.append((score, c))
         answers.sort()
         if answers[1][1] == self.__spamFolder:
@@ -179,15 +174,13 @@ class Predictor:
             uppercase = tree.tokenize_uppercase(s)
             directory['all_words']['number_uppercase'] += len(uppercase)
             directory['all_words']['number_links'] += len(links)
-            '''
-            directory['headers'] = header
-            '''
             for word in all_words:
                 word = word.lower()
                 if word in directory['all_words']:
                     directory['all_words'][word] += 1
                 else:
                     directory['all_words'][word] = 1
+            directory['all_words'].update(header)
         return directory
 
 if __name__ == '__main__':

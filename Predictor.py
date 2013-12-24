@@ -120,15 +120,15 @@ class Predictor:
             for key in countdict['all_words']:
                 num_words += countdict['all_words'][key]
             unique_labels = float(len(countdict['all_words'].keys()))
+            #m = 1.0
             m = 1000.0
             for key, value in countdict['all_words'].iteritems():
                 #word count
                 countdict['all_words'][key] = (float(value) + (1.0/m)) / \
-                    (num_words + (unique_labels/m))
+                    (float(num_words) + (unique_labels/m))
             print len(countdict['all_words'].keys())
             self.__classes[dir] = countdict
 
-    #tokenize testing data -> add log probabilities
     def predict(self, filename):
         '''Take in a filename, return whether this file is spam
         return value:
@@ -153,7 +153,7 @@ class Predictor:
                     score += math.log(training_dic['headers'][header_word])
             '''
             answers.append((score, c))
-            answers.sort()
+        answers.sort()
         if answers[1][1] == self.__spamFolder:
             fout.write("Spam" + "\n")
             return True
@@ -168,6 +168,8 @@ class Predictor:
         d = defaultdict(int)
         directory = {}
         directory['all_words'] = {}
+        directory['all_words']['number_uppercase'] = 0
+        directory['all_words']['number_links'] = 0
         for file in files:
             file_string = open(file).read()
             tree = TreebankWordTokenizer()
@@ -175,9 +177,9 @@ class Predictor:
             all_words = tree.tokenize(s)
             links = tree.tokenize_links(s)
             uppercase = tree.tokenize_uppercase(s)
+            directory['all_words']['number_uppercase'] += len(uppercase)
+            directory['all_words']['number_links'] += len(links)
             '''
-            directory['all_words']['number_uppercase'] = len(uppercase)
-            directory['all_words']['number_links'] = len(links)
             directory['headers'] = header
             '''
             for word in all_words:
@@ -194,13 +196,10 @@ if __name__ == '__main__':
     fout = open("results.txt", "w")
     dirs = sys.argv[1:4]
     predictor = Predictor(dirs[0], dirs[1])
-    ham_count, spam_count = 0, 0
+    spam_count, ham_count = 0, 0
     for testfile in os.listdir(dirs[-1]):
         filename = dirs[-1] + testfile
-        try:
-            result = predictor.predict(filename)
-        except:
-            result = predictor.predict(filename)
+        result = predictor.predict(filename)
         if result:
             spam_count += 1
         else:

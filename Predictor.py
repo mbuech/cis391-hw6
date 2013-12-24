@@ -110,6 +110,7 @@ class TreebankWordTokenizer():
         x = 0
         while x < len(new_text) - 1:
             d.append("bigram-"+new_text[x].lower() + " " + new_text[x+1].lower())
+            x += 1
         return d
 
 class Predictor:

@@ -84,6 +84,16 @@ class TreebankWordTokenizer():
                 d.append(w)
         return d
 
+    def tokenize_html(self, text):
+        new_text = self.tokenize(text)
+        d = []
+        x = 0
+        while x < len(new_text):
+            if new_text[x] == "<" and new_text[x+2] == ">":
+                d.append(new_text[x+1])
+            x += 1
+        return d
+
 
 class Predictor:
     '''
@@ -165,6 +175,7 @@ class Predictor:
         directory['all_words'] = {}
         directory['all_words']['number_uppercase'] = 0
         directory['all_words']['number_links'] = 0
+        directory['all_words']['num_html_tags'] = 0
         for file in files:
             file_string = open(file).read()
             tree = TreebankWordTokenizer()
@@ -172,8 +183,10 @@ class Predictor:
             all_words = tree.tokenize(s)
             links = tree.tokenize_links(s)
             uppercase = tree.tokenize_uppercase(s)
+            html_tags = tree.tokenize_html(s)
             directory['all_words']['number_uppercase'] += len(uppercase)
             directory['all_words']['number_links'] += len(links)
+            directory['all_words']['num_html_tags'] += len(html_tags)
             for word in all_words:
                 word = word.lower()
                 if word in directory['all_words']:
